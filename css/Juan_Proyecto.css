@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#header{
+    border: 1px solid black;
+    width: 990px;
+    height: 150px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+/*h1{
+    text-align: center;
+}*/
+
+#motogp{
+    float: left;
+    padding-right: 50px;
+    padding-top: 8px;
+}
+
+#formula1{
+    float: left;
+    padding-right: 50px;
+    padding-top: 8px;
+}
+
+#divlista{
+    width: 500px;
+    border: 1px solid black;
+    float: left;
+    margin-top: 8px;
+}
