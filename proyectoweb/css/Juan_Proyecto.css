@@ -1,0 +1,216 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#principal{
+    width: 1500px;
+    height: 680px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#iconos{
+    border: 1px solid black;
+    width: 210px;
+    height: 120px;
+    margin-left: 100px;
+    float: left;
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+}
+
+#logo1{
+    width: 100px;
+    float: left;
+    margin-top: 20px;
+}
+
+#logo2{
+    width: 100px;
+    margin-top: 20px;
+}
+
+#header{
+    width: 880px;
+    height: 120px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+#texto{
+    width: 140px;
+    height: 100px;
+    padding: 5px;
+    float: left;
+}
+
+#lista{
+    width: 630px;
+    height: 90px;
+    margin-left: 180px;
+}
+
+#palabra1{
+    float: left;
+    margin-left: 20px;
+}
+
+#palabra2{
+    float: left;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#palabra3{
+    margin-left: 3px;
+    float: left;
+    margin-right: 20px;
+}
+
+#palabra4{
+    margin-left: 3px;
+    float: left;
+    margin-right: 14px;
+}
+
+ul{
+    list-style: none;
+}
+
+.nav li a{
+    /*background-color: black;*/
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*.nav li a:hover{
+    background-color: gray;
+}*/
+
+.nav li ul{
+    display: none;
+    position: absolute;
+    min-width: 130px;
+}
+
+.nav li:hover > ul{
+    display: block;
+}
+
+.nav li ul li{
+    position: relative;
+}
+
+#motogp{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#f1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#menu{
+    margin: auto;
+    width: 1300px;
+    height: 500px;
+    margin-top: 40px;
+}
+
+#pilotosmotogp{
+    width: 580px;
+    float: left;
+    margin-top: 55px;
+}
+
+#pilotosf1{
+    width: 690px;
+    margin-top: 55px;
+    margin-left: 10px;
+}
+
+#footer{
+    border: 1px solid black;
+    width: 1300px;
+    height: 300px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: black;
+}
+
+#h2motogp{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    /*float: left;*/
+    /*padding-left: 220px;
+    padding-right: 200px;
+    padding-top: 40px;*/
+    
+}
+
+#h2f1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    /*padding-top: 40px;*/
+}
+
+#divmotogp{
+    width: 520px;
+    height: 80px;
+    float: left;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+#divf1{
+    width: 520px;
+    height: 80px;
+    float: left;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.iconofacebook{
+    width: 50px;
+    margin-top: 10px;
+    float: left;
+    margin-left: 10px;
+}
+
+.iconoinsta{
+    width: 50px;
+    margin-top: 10px;
+    float: left;
+    margin-left: 10px;
+}
+
+.iconotwitter{
+    width: 50px;
+    margin-top: 10px;
+    float: left;
+    margin-left: 10px;
+}
+
+.iconoyoutube{
+    width: 50px;
+    margin-top: 10px;
+    float: left;
+    margin-left: 10px;
+}
+
+#linea{
+    margin: auto;
+    width: 800px;
+    margin-top: 170px;
+}
+
+p{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
